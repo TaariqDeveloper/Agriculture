@@ -1,0 +1,609 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    background-color: #f0f4f7;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: darkcyan;
+    font-size: 18px;
+    transition: color 0.3s ease;
+   
+}
+
+.header nav ul li a:hover {
+    color: #136d6d;
+}
+
+.Login, .Singin {
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+}
+
+.Login {
+    background-color: darkcyan;
+    color: white;
+}
+
+.Login:hover {
+    background-color: #136d6d;
+}
+
+.Singin {
+    border: 1px solid darkcyan;
+    color: darkcyan;
+}
+
+.Singin:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.logo p {
+    color: darkcyan;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* Background and Text */
+.backgroundimage {
+    background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.3), rgba(132, 195, 132, 0.3)), url("./assets/image 1.png");
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+    max-width: 800px;
+}
+
+.text h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text p {
+    font-size: 22px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn1 .Singin1 {
+    padding: 10px 25px;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 18px;
+    border: 1.5px solid whitesmoke;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn1 .Singin1:hover {
+    background-color: whitesmoke;
+    color: darkcyan;
+}
+
+
+/* section two  */
+
+.container{
+  
+    margin-top: 50px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+.col2{
+    width: 300px;
+    height: 450px;
+  
+}
+.img2{
+    background-image: url(./assets/Rectangle\ 10.png);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.col2 h2{
+    color: darkcyan;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.col2 p{
+    padding-top: 20px;
+    color: rgb(69, 52, 52);
+}
+.col2 .btn1{
+    margin-top: 20px;
+}
+.subBox{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    left: 25%;
+    top: 82%;
+    border-radius: 10px;
+}
+.subBox h2{
+  
+   color: darkcyan;
+   font-size: 18px;
+   text-align: center;
+   padding-top: 10px;
+}
+/* section our feature products  */
+
+.container4{
+    margin: 100px 0;
+}
+
+.container4 h2{
+    text-align: center;
+    color: darkcyan;
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+.container4 p{
+    color: rgb(69, 52, 52);
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 30px 0;
+}
+
+.row4{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.col3{
+    width: 350px;
+    height: 500px;
+    position: relative;
+}
+.col3_image{
+    width: 350px;
+    height: 200px;
+    background-image: url(./assets/images/Rectangle\ 10\ \(2\).png);
+    border-radius: 20px;
+}
+
+.col3image2{
+    width: 350px;
+    height: 200px;
+    background-image: url(./assets/images/Rectangle\ 11.png);
+    border-radius: 20px;
+}
+.col3image3{
+    width: 350px;
+    height: 200px;
+    background-image: url(./assets/images/Rectangle\ 12\ \(2\).png);
+    border-radius: 20px;
+}
+.col3 h2{
+    color: darkcyan;
+    font-size: 32px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.col3 p{
+    padding-top: 15px;
+    font-size: px;
+}
+.col3 a{
+    padding: 10px 0;
+    font-size: 20px;
+    position: absolute;
+    top: 100%;
+    color: darkcyan;
+    text-decoration: none;
+}
+
+
+
+
+
+/* our service product */
+
+.container5 {
+    margin: 100px 0px;
+}
+.container5 h1{
+    text-align: center;
+    font-size: 3em;
+    color: darkcyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.container5 p{
+    color: rgb(69, 52, 52);
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+}
+.row5{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+.coll-4{
+    margin-top: 30px;
+    width: 250px;
+    height: 280px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.coll-4 img{
+    margin-top: 50px;
+    margin-left: 38%;
+}
+.coll-4 h2{
+    color: darkcyan;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 25px;
+}
+.coll-44 h2{
+    padding: 15px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/* section three feature product */
+
+.container2 h2{
+    text-align: center;
+    color: darkcyan;
+    font-size: 25px;
+    margin-top: 80px;
+}
+.container2 p{
+    font-size: 18px;
+    color: rgb(69, 52, 52);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.col-4{
+    width: 250px;
+    height: 450px;
+    margin-bottom: 30px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.col-image{
+    background-image: url(./assets/products/Rectangle\ 10\ \(1\).png);
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.col-image1{
+    background-image: url(./assets/products/Rectangle\ 12.png);
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.col-image2{
+    background-image: url(./assets/products/Rectangle\ 12\ \(1\).png);
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.col-image3{
+    background-image: url(./assets/products/Rectangle\ 13.png);
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+.col-4 h1{
+    text-align: center;
+    color: darkcyan;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.col-4 p{
+    font-size: 16px;
+    color: rgb(69, 52, 52);
+    padding: 0px 20px;
+    text-align: justify;
+    text-align: center;
+}
+
+/* section profite */
+
+.row3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.col_2{
+    width: 350px;
+    height: 340px;
+    position: relative;
+    margin-top: 60px;
+}
+.col-22 h3{
+    font-size: 35px;
+    color: darkcyan;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.col-22 p{
+    color: rgb(69, 52, 52);
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.login1{
+    position: absolute;
+    top: 70%;
+}
+
+.col_22{
+    background-color: darkcyan; 
+    border-radius: 10px;
+    position: relative;
+ 
+
+   
+ }
+ 
+ .icon_text{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 60px;
+    color: white;
+    position: relative;
+  
+   
+ }
+ .pos{
+    position: absolute;
+    top: 100%;
+    left: 10%;
+ }
+ .icon_text i{
+   font-size: 20px;
+ }
+
+
+
+ 
+ 
+
+
+
+ 
+
+
+
+
+
+
+/* Testmonials  */
+
+
+
+.container6 {
+    margin: 50px 0;
+    background-color:darkgrey;
+    height: 100vh;
+}
+
+.container6 h1{
+    text-align: center;
+    color: darkcyan;
+    font-size: 25px;
+    padding: 50px 0;
+}
+.container6 p{
+    font-size: 18px;
+    color: rgb(69, 52, 52);
+    text-align: center;
+    padding-top: 10px;
+}
+.row6{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+#col33{
+    width: 600px;
+    height: 300px;
+    background-color:   darkcyan;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.All{
+    display: flex;
+    justify-content: center;
+    gap: 20px 
+}
+.All-2{
+    width: 250px;
+    height: 200px;
+    /* background-color: red; */
+    margin-top: 50px;
+    position: relative;
+}
+#image1{
+    margin-top: 130px;
+}
+.All-2 i{
+    color: gold;
+}
+.last{
+    position: absolute;
+}
+.last1{
+    position: absolute;
+    top: 30%;
+}
+.test2{
+    position: relative;
+    top: 40%;
+    left: -10%;
+}
+
+/* footer section */
+
+.footer{
+    margin-top: 100px ;
+    background-color: darkcyan;
+}
+.row7{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+.row7-col2{
+    width: 300px;
+    height: 300px;
+}
+.row7-col2 h1{
+    font-size: 25px;
+    color: white;
+    padding-top: 50px;
+}
+.row7-col2 p{
+    font-size: 17px;
+    padding-top: 10px;
+    color: rgb(225, 209, 209);
+}
+
+.col7-icons img{
+   padding: 10px;
+   margin-left: -10px;
+   margin-top: 25px;
+}
+.nav ul{
+    list-style: none;
+    margin: 5px;
+    color: white;
+}
+.center{
+    position: relative;
+    left: 28%;
+}
+
+
+/* Responsive Design */
+/* 
+ */
+ 
+
+
+
+
+
